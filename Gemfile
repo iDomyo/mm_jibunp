@@ -12,3 +12,8 @@ gem "slim"
 gem "html2slim"
 
 gem "middleman-deploy"
+
+gem "bitters"
+gem "bourbon"
+gem "neat"
+
