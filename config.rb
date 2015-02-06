@@ -106,5 +106,7 @@ activate :deploy do |deploy|
   deploy.method = :rsync
   deploy.host   = 'jibunp.com'
   deploy.path   = '/home/core/share/www/com.jibunp/' 
-
+  deploy.user   = 'root'
+  deploy.clean  = true
+  deploy.build_before = true
 end
