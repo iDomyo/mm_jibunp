@@ -12,6 +12,7 @@ gem "slim"
 gem "html2slim"
 
 gem "middleman-deploy"
+gem "middleman-livereload"
 
 gem "bitters"
 gem "bourbon"
